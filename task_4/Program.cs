@@ -27,8 +27,11 @@ for (int i = 0; i < array.Length; i++)
    {
       minNumber = array[i];
    }
+   result = maxNumber - minNumber;
 }
-result = maxNumber - minNumber;
+
 Console.Write($"Максимальное число в массиве = {maxNumber} ");
 Console.Write($"Минимальное число в массиве = {minNumber} ");
 Console.Write($"Разность максимального и минимального числа = {result} ");
+
+// Может с double и переборщил, но  мне кажеться , что преременным так же нужно присвоить значение double
